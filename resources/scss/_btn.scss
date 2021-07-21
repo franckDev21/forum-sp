@@ -1,0 +1,16 @@
+.btn{
+    @include btn;
+    display: inline-block;
+    color: $white;
+    @include flex-center;
+    transition: transform .3s;
+    margin-top: .3rem;
+    &--online{
+        border: 1px solid $primary;
+        color: $primary;
+        background-color: transparent;
+    }
+    &:active{
+        transform: scale(.90);
+    }
+}

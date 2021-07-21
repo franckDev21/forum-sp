@@ -1,0 +1,19 @@
+body{
+    font-family: $font-family;
+    background-color: $fond;
+}
+
+[type='text']:focus {
+    outline: none ;
+    border: none;
+    box-shadow: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: calc(100% - 30px);
+}
+
+@import 'btn';
+@import 'home';

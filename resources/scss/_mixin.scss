@@ -1,0 +1,14 @@
+// pour centrer tous les elements dans un block
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin  btn($h:$btn-h,$w:$btn-w,$bg:$primary,$pd:0.5rem) {
+    width: $btn-w;
+    height: $btn-h;
+    background-color: $bg;
+    cursor: pointer;
+    padding: $pd;
+}
